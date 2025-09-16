@@ -11,12 +11,6 @@ from utils.logger import get_logger
 # Configuração do logger
 logger = get_logger(__name__)
 
-# # Constantes de configuração
-# DEFAULT_SIMILARITY_RESULTS = 10
-# DEFAULT_TEMPERATURE = 0.5
-# DEFAULT_MODEL = "gpt-5-nano"
-# FALLBACK_RESPONSE = "Não tenho informações necessárias para responder sua pergunta."
-
 class SearchError(Exception):
     """Exceção customizada para erros."""
     pass
